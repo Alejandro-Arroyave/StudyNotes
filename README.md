@@ -1,2 +1,3 @@
 # StudyNotes
-This is a simple repository where I put some of useful notes for me of my studies of different tools. I started with the basics to get better in these technologies 😎
+
+Un repo simple donde pongo algunas notas que son útiles para mi en el estudio de diferentes tecnologías. Comencé con las tecnologías más básicas para mejorar mi nivel en estas 😎
