@@ -37,6 +37,22 @@ Para acceder a estos se puede hacer por estos medios:
   message.dataset.messageId
   message.dataset.messageType
   ```
+
+## Accesibilidad
+
+La accesibilidad significa que cualquier usuario puede usar una página web, sin importar que este tenga algo tipo de discapacidad física, mental o cognitiva. También se extiende a otros grupos de usuarios, por ejemplo aquellos que navegan desde dispositivos móviles o que tienen una conexión a internet lenta. Cuando se mejora la accesibilidad, se mejoran también otras cosas como lo puede ser el SEO, la legibilidad del código, se hace fácil de mantener y de entender, y si usamos bien los elementos que nos provee HTML nuestro código ya va a tener buena accesibilidad.
+
+Una de las cosas que se debe de tener en cuenta para mantener la accesibilidad es escribir código HTML semánticamente correcto, esto significa que se deben usar los tags adecuados para lo que están hechos. Por ejemplo, usar los tags de estructura como lo son `<header>`, `<section>`, `<article>`, `<summary>`, `<footer>` y entre otros. Igualmente con los tags de acciones, por ejemplo botones, campos de formularios, deben er bien utilizados para que las herramientas de accesibilidad puedan leerlos e interpretarlos. 
+
+Además de esto, es muy importante darle significado a los labels que usamos, por ejemplo: Para el label de un link, un texto “haz clic aquí” no es significativo, en cambio “Haz clic aquí para saber mas sobre accesibilidad”, tiene significado y le va a ayudar a un usuario a saber que funcionalidad tiene ese botón. Igualmente, el tag `<label>` es super importante para los formularios, ya que este le dan contexto de la info que tiene que llenar en el campo.
+
+Para las tablas, tenemos tags que nos sirven para diferenciar entre las columnas “titulo” (`<th>`), las columnas “body” (`<tr>`) y el caption (`<caption>`).
+
+### Texto alternativo
+Para los archivos multimedia, la accesibilidad puede ser un poco más complicada, pero existen alternativas que nos pueden ayudar. Por ejemplo, para una imagen, podemos usar el atributo `alt` para añadir un texto alternativo, la propiedad `title` para añadir un titulo (se puede ver pasando haciendo hover), y la propiedad `aria-labelledby` para enlazarlo a un texto mostrado que tenga una descripción de la imagen, tal cual como este [ejemplo de la MDN](https://mdn.github.io/learning-area/accessibility/html/accessible-image.html). Si tenemos una imagen que es meramente decorativa y no queremos que el lector lea la URL completa, debemos agregar el atributo alt vacío o utilizar el atributo `role=“presentation”`.
+
+La MDN también nos provee este [recurso para practicar accesibilidad](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/Test_your_skills:_HTML_accessibility).
+
   
 ## Meta Tags
 
